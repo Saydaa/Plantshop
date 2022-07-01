@@ -1,0 +1,96 @@
+/* Base rules */
+
+:root {
+    font-size: calc(0.5em + 1vw);
+    --green : #69b85d; 
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+} 
+
+/* html {
+    box-sizing: border-box;
+} 
+
+  *,
+*:before,
+*:after {
+    box-sizing: inherit;
+}  
+
+ *{
+    max-width: 100%;
+}   */
+
+/* menu and logo*/
+
+.logo{
+    width: 4em;
+    margin-right: auto;
+}
+
+.menu{ 
+    display: flex;
+    justify-content: flex-end;
+    padding: 2%; 
+    border-bottom: 1px solid gray;
+   
+   
+    
+    
+}
+
+.menu_item{
+    padding: 0.5em;
+    
+}
+
+/* 
+.hero-image {
+ Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read 
+    background-image:  url(./img/pexels-dominika-roseclay-912413.jpeg);
+ Position and center the image to scale nicely on all screens 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 100vh;
+max-width: 100%;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 17em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(29, 29, 29);    
+} */
+
+
+.secondimage{
+  max-width: 100%;
+  position: relative;
+}
+
+
+.tagline{
+    position:absolute;
+    left: 100px;
+    top: 18em; 
+    display: inline;
+    z-index: 1;
+}
+
+
+.home-text{
+
+padding: 2em;
+margin: 1em;
+font-weight: bold;
+border: 1px solid rgb(101, 85, 85);
+border-radius: 2em;
+
+}
